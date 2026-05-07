@@ -1,0 +1,11 @@
+{
+  "name": "@fofx/spring-types",
+  "version": "1.0.0",
+  "description": "Spring Types for f/x/'s spring template",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fx",
+  "license": "ISC"
+}
