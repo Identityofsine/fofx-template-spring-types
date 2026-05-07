@@ -1,6 +1,6 @@
 {
   "name": "@fofx/spring-types",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Spring Types for f/x/'s spring template",
   "main": "index.ts",
   "scripts": {
