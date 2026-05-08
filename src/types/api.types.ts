@@ -37,7 +37,16 @@ export type ApiResponseType =
 
 export type ApiResponse<T = unknown> = {
   status: number;
+  /**
+   * @name data
+   * @description The data returned from the API over an error 
+   */
   data: T | null;
+  /**
+   * @name payload
+   * @description The payload sent to the API over a success
+   */
+  payload?: T;
   type: ApiResponseType;
   message?: string;
   error?: string;
