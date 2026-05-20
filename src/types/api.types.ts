@@ -1,3 +1,10 @@
+export type DateLike = Date | string | number;
+
+export type Timestamped = {
+  createdAt?: DateLike
+  updatedAt?: DateLike
+}
+
 export type OAuth2LoginParams = {
   provider?: AuthenticationMethod;
   redirectUrl?: string;
